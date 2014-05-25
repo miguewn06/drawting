@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cron&oacute;metro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/frase.css" />
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" src= "js/frase.js"></script>
+    <script src= "js/jquery-1.7.2.js"></script>
+    <script src= "js/jquery.mobile-1.4.2.min.js"></script>
+        
+</head>
+
+<body>
+    
+      <div data-role="page" id="page"> 
+    <div data-role="header" data-position="fixed" id="title"> 
+        <h1>Frase</h1> 
+    </div> 
+    <div data-role="content"> 
+        <center><IMG align=center WIDTH=120 HEIGTH=120 SRC="img/reloj.png"></center>
+            <div id="cronometro">
+            <center><div id="reloj">00 : 00</div></center>
+            <form name="cron" action="#">
+                <input type="button" value="Empezar" name="empieza"/>
+                <input type="button" value="Reiniciar" name="reinicia" id="reinicia"/>
+                <input type="button" value="Hay Ganador" name="para" id="detiene">      
+            </form>
+            </div>
+        
+    </div>
+    </div>
+
+</body>
+</html>

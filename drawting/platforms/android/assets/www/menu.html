@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    
+    <script src= "js/jquery-1.7.2.js"></script>
+    <script src= "js/jquery.mobile-1.4.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    
+    
+    
+</head>
+
+<body>
+    <div data-role="page" id="page"> 
+    <div data-role="header" data-position="fixed" id="title"> 
+        <h1>Men&uacute;</h1> 
+    </div> 
+    <div data-role="content"> 
+        <p>
+        <ul>
+            <li><input type="button" value="Ingresar Jugadores" id="jugadores" onclick="window.open('ingresar.html');"></li><br>
+            <li><input type="button" value="Puntaje" id="puntaje" onclick="window.open('puntaje.html');"></li><br>
+            <li><input type="button" value="Continuar Partida" id="continuar"></li><br>
+            <li><input type="button" value="Salir" id="salir" onclick="navigator.app.exitApp();"></li><br>
+            
+        </ul>
+        </p> 
+    </div>
+    </div>
+            
+</body>
+</html>

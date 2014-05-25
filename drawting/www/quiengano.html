@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>QuienGano</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    
+    <script src= "js/jquery-1.7.2.js"></script>
+    <script src= "js/jquery.mobile-1.4.2.min.js"></script>    
+    
+</head>
+
+<body>
+    <div data-role="page" id="page"> 
+    <div data-role="header" data-position="fixed" id="title"> 
+        <h1>¿Qui&eacute;n Gan&oacute;?</h1> 
+    </div> 
+    <div data-role="content"> 
+        
+        <p>
+          <input type = "radio" 
+                 name = "radSize"
+                 id = "sizeSmall"
+                 value = "small"
+                 checked = "checked" />
+          <label for = "sizeSmall">Jugador 1</label>
+          
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeMed"
+                 value = "medium" />
+          <label for = "sizeMed">Jugador 2</label>
+ 
+  
+        </p>     
+        
+        <input type="button" value="Guardar" id="guardar" onclick="window.open('puntaje.html');" />
+        
+            
+    </div>
+    </div>
+            
+</body>
+</html>

@@ -1,0 +1,47 @@
+ #page {
+    background:url(../img/fondo.jpg);
+    background-size: cover;
+} 
+
+#title{
+    background-color: #;
+}
+
+h1 {
+    
+    font-family: cursive;
+        
+}
+
+
+ul {
+    background: 
+    margin: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	padding: 0px;
+ 
+}
+
+li {
+	height: 25px;
+}
+
+#jugadores{
+    background-color: #0055ff;
+}
+
+#puntaje{
+    background-color: #32ad19;
+
+}
+
+#continuar{
+    background-color: #ff6600;
+}
+
+#salir{
+    background-color: #960ed9;
+}
+
+

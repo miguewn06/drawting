@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jugador</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jugador.css">
+    
+    <script src= "js/jquery-1.7.2.js"></script>
+    <script src= "js/jquery.mobile-1.4.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    
+    <script type="text/javascript" src="js/jugador.js"></script>
+    
+    
+</head>
+
+<body>
+    <div data-role="page" id="page"> 
+    <div data-role="header" data-position="fixed" id="title"> 
+        <h1>Jugador 1</h1> 
+    </div> 
+    <div data-role="content"> 
+        <p align="center">¡Presiona la moneda!</p>
+        <center><IMG WIDTH=120 HEIGTH=120 SRC="img/bitcoin.png" onclick="aleatorio();"></center>
+            
+            <div id="cronometro">
+            <center><p id="resultado"></p></center>
+            <input type="button" value="Jugar" name="frase" onclick="window.open('frase.html');"/>
+            
+                              
+	
+
+    </div>
+    </div>
+            
+</body>
+</html>
